@@ -34,7 +34,7 @@
     src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
 }
 
-h2
+.h2_sect1
 {
     position: absolute; /* Establece el h1 como posición absoluta */
     top: 10%; /* Posiciona el h1 en la mitad superior del contenedor */
@@ -56,7 +56,7 @@ h2
     src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
-h1 
+.h1_sect1
 {
     position: absolute; /* Establece el h1 como posición absoluta */
     top: 12%; /* Posiciona el h1 en la mitad superior del contenedor */
@@ -166,7 +166,7 @@ Secondary text- #757575 - GREY 600
 Divider color- #BDBDBD - GREY 400 */
 
 /* //////////////////////  section 2   ///////// */
-.sect_2
+.sect
 {
     /* border: 1px solid blue; */
     /* background: #e91e63; */
@@ -193,7 +193,7 @@ Divider color- #BDBDBD - GREY 400 */
     align-items: flex-start;
 } */
 
-#h1_sect2
+.h1_sect
 {
     display: flex;
     flex-direction: column;
@@ -209,7 +209,7 @@ Divider color- #BDBDBD - GREY 400 */
     font-family: 'Montserrat-Light';
     src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Light.ttf');
 }
-#h2_sect2
+.h2_sect
 {
     display: flex;
     flex-direction: column;
@@ -223,7 +223,7 @@ Divider color- #BDBDBD - GREY 400 */
 }
 
 
-.container_sect2
+.container_sect
 {
     /* background: violet; */
     position: relative;
@@ -248,7 +248,7 @@ Divider color- #BDBDBD - GREY 400 */
 
 #img_lugares
 {
-    width: 240px;
+    width: 245px;
     height: 180px;
     /* border: 10px solid; */
 }
@@ -283,3 +283,66 @@ Divider color- #BDBDBD - GREY 400 */
     font-family: 'Montserrat-Bold';
     font-size: 30px;
 }
+
+#p_hoteles
+{
+    position: absolute;
+    top:55% ;
+    left: 24%;
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 90px;
+}
+
+#p_experiencias
+{
+    position: absolute;
+    top:31% ;
+    left: 77%;
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+}
+
+#p_autos
+{
+    position: absolute;
+    top:85% ;
+    left: 77%;
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+}
+ /* Color negro con opacidad del 50% */
+/* .container_sect2::before 
+{
+    content: "";
+    position: absolute;
+    top: 31;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+  } */
+  /* ////////////////////////  section 3 ////////////////////////////// */
+.div_text
+{
+    background: #e91e63;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}  
+
+#id_h1_sect3
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#id_h2_sect3
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
