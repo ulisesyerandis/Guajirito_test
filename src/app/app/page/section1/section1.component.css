@@ -1,0 +1,180 @@
+/* section 1 */
+/* *{
+    border: 1px solid red; 
+    }  */
+
+.section_title
+{
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 200%;
+  height: 120px;
+  background: transparent ;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  border: #e91e63 1px solid;
+  /* margin: 0; */
+}
+
+a
+{
+  position: absolute;
+  text-decoration: none;
+  color: rgb(201, 9, 9);
+  /* margin: 0; */
+}
+
+.logo {
+  width: 90px; /* Ajusta el ancho de la imagen del logo a 100 píxeles, puedes cambiar este valor según tus necesidades */
+  height: 7%; /* Mantiene la proporción de aspecto de la imagen */
+  position: absolute; /* Establece el h1 como posición absoluta */
+  /* top: 5%;  */
+  /* Posiciona el h1 en la mitad superior del contenedor */
+  left: 42%;
+   /* Posiciona el h1 en el centro del contenedor */
+  transform: translate(-50%, -50%);
+   /* Centra el h1 exactamente sobre la imagen */
+  z-index: 1;
+   /* Asegura que el h1 esté por encima de las imágenes */
+  /* margin: 0; */
+}
+
+.section_backg_plain
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    margin: 0;
+}
+
+.section_backg_plain img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------------------------------------- */
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+.h2_sect1
+{
+    position: absolute; /* Establece el h1 como posición absoluta */
+    top: 10%; /* Posiciona el h1 en la mitad superior del contenedor */
+    left: 84%; /* Posiciona el h1 en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el h1 exactamente sobre la imagen */
+    z-index: 1; /* Asegura que el h1 esté por encima de las imágenes */
+    color: white;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 27px;
+    width: 210px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* ---------------------------------------------------------------------- */
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+.h1_sect1
+{
+    position: absolute; /* Establece el h1 como posición absoluta */
+    top: 12%; /* Posiciona el h1 en la mitad superior del contenedor */
+    left: 57%; /* Posiciona el h1 en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el h1 exactamente sobre la imagen */
+    z-index: 1; /* Asegura que el h1 esté por encima de las imágenes */
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 67px;
+    width: 600px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    /* align-items: flex-start;
+    align-content: flex-start; */
+  }
+  /* ---------------------------------------------------------------------- */
+  .Rect2501
+  {
+    position: absolute; /* Establece el h1 como posición absoluta */
+    top: 25%; /* Posiciona el h1 en la mitad superior del contenedor */
+    left: 113%; /* Posiciona el h1 en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el h1 exactamente sobre la imagen */
+    z-index: 1; /* Asegura que el h1 esté por encima de las imágenes */
+    width: 160px;
+    height: 154px;
+  }
+
+  .Rect2502
+  {
+    position: absolute; /* Establece el h1 como posición absoluta */
+    top: 63%; /* Posiciona el h1 en la mitad superior del contenedor */
+    left: 130%; /* Posiciona el h1 en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el h1 exactamente sobre la imagen */
+    z-index: 1; /* Asegura que el h1 esté por encima de las imágenes */
+    width:  390px;
+    /* height: 645px; */
+  }
+
+  */
+  .section_buttons {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      height: 40%;
+    }
+    
+    .example-label {
+      display: table-cell;
+      font-size: 14px;
+      margin-left: 8px;
+      min-width: 120px;
+      background: turquoise;
+    }
+    
+    .example-button-row {
+      display: table-cell;
+      max-width: 600px;
+      background: yellow;
+    }
+    
+    .example-button-row .mat-mdc-button-base {
+      margin: 8px 8px 8px 0;
+      background: #e91e63;
+    }
+    
+    /* .example-flex-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background:  green;
+    } */
+    
+    .example-button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 120px;
+      background: blue;
+    }
+  
+    .example-button-container button {
+      border-radius: 50%; /* Hace que los botones sean redondeados */
+      width: 56px; /* Ajusta el ancho de los botones según tus necesidades */
+      height: 56px; /* Ajusta la altura de los botones según tus necesidades */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8px; /* Añade un margen entre los botones */
+  }

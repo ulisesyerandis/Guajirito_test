@@ -1,0 +1,176 @@
+/* sectio3 */
+
+/* *{
+    border: 1px solid red; 
+    }  */
+
+.sect3
+{
+    width: 100%;
+    height: 850px;
+    /* background: turquoise; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_text
+{
+    /* background: #e91e63;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 1060px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center; /* Alinear el texto al centro */
+    /* background: yellowgreen; */
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+}  
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf');
+}
+
+h1
+{
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 42px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+h3
+{
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    font-family: 'Montserrat-Light';
+    font-size: 20px;
+    margin: 0;
+}
+
+.container
+{
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 500px;
+    /* background: yellowgreen; */
+}
+
+#img_peces
+{
+        /* Establece el h1 como posición absoluta */
+        /* position: absolute;  */
+        /* Posiciona el h1 en la mitad superior del contenedor */
+        /* top: 25%;  */
+        /* Posiciona el h1 en el centro del contenedor */
+        /* left: 112%;  */
+        /* Centra el h1 exactamente sobre la imagen */
+        /* transform: translate(-50%, -50%);  */
+        /* Asegura que el h1 esté por encima de las imágenes */
+        /* z-index: 1;  */
+        width: 175px;
+        height: 173px;
+        display: flex;
+        flex-direction: row-reverse;
+}
+
+#img_estatua
+{
+    width: 340px;
+    height: 315px;
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 500px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+h2
+{
+    font-family: 'Montserrat-Light';
+    font-size: 40px;
+    margin: 0;
+}
+
+.div_icon
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+
+h4
+{
+    font-family: 'Montserrat-Light';
+    font-size: 20px;
+}
+
+#star
+{
+    margin: 0;
+    color: rgb(233, 30, 99);
+}
+
+#img_erika
+{
+    width: 100px;
+    height: 105px;
+    margin: 0;
+}
+
+.div_name
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
+
+p
+{
+    width: 550px;
+    height: 250px;
+    margin: 0;
+    padding-top: 5px;
+}
