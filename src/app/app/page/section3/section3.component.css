@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+#background
+{
+    position: relative;
+}
+
 .div_text
 {
     /* background: #e91e63;
@@ -23,6 +28,7 @@
     justify-content: space-between;
     height: 100px;
     width: 1060px; */
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -32,6 +38,8 @@
     width: 900px;
     height: 100px;
     margin: 0 auto;
+    top: 67%;
+    left: 18%;
 }  
 
 @font-face {
@@ -66,6 +74,7 @@ h3
 {
     width: 900px;
     height: auto;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;

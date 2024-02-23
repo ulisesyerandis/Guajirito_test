@@ -5,41 +5,65 @@
 
 .section_title
 {
-  position: absolute;
+  /* position: absolute;
   display: inline-flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row-reverse; */
+  /* justify-content: space-between; */
+  /* align-items: center;
   width: 200%;
-  height: 120px;
-  background: transparent ;
+  height: 100px;
+  background: transparent ; */
   /* transform: translate(-50%, -50%); */
+  /* z-index: 1;
+  border: #e91e63 1px solid; */
+  /* margin: 0; */
+
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly; /* Aplica el espacio entre los elementos en el header */
+  align-items: center;
+  width: 200%; /* Ajusta el ancho del header al 100% del contenedor */
+  height: 100px;
+  background: transparent;
   z-index: 1;
   border: #e91e63 1px solid;
-  /* margin: 0; */
 }
 
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
 a
 {
-  position: absolute;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
   text-decoration: none;
-  color: rgb(201, 9, 9);
+  color: white;
   /* margin: 0; */
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
 }
 
 .logo {
-  width: 90px; /* Ajusta el ancho de la imagen del logo a 100 píxeles, puedes cambiar este valor según tus necesidades */
-  height: 7%; /* Mantiene la proporción de aspecto de la imagen */
-  position: absolute; /* Establece el h1 como posición absoluta */
+  /* width: 90px; 
+  height: 7%; 
+  position: absolute; */
   /* top: 5%;  */
-  /* Posiciona el h1 en la mitad superior del contenedor */
-  left: 42%;
-   /* Posiciona el h1 en el centro del contenedor */
+  /* left: 42%;
   transform: translate(-50%, -50%);
-   /* Centra el h1 exactamente sobre la imagen */
-  z-index: 1;
-   /* Asegura que el h1 esté por encima de las imágenes */
+  z-index: 1; */
   /* margin: 0; */
+  position: relative;
+  /* top: 50%; 
+  left: 20%;  */
+  /* transform: translate(-50%, -50%);  */
+  /* Centra la imagen en el contenedor */
+  /* z-index: 1;
+  width: 90px;
+  height:5%; */
+  width: 90px;
+  height: auto;
 }
 
 .section_backg_plain
