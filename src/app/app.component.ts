@@ -7,6 +7,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { Section1Component } from './app/page/section1/section1.component';
 import { Section2Component } from './app/page/section2/section2.component';
 import { Section3Component } from './app/page/section3/section3.component';
+import { HeaderComponentComponent } from './app/page/header/header-component.component';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { Section3Component } from './app/page/section3/section3.component';
   [
     CommonModule, RouterOutlet, MatButtonModule, 
     MatDividerModule, MatIconModule,
-    Section1Component, Section2Component, Section3Component
+    Section1Component, Section2Component, Section3Component,
+    HeaderComponentComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
