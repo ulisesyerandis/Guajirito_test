@@ -5,18 +5,13 @@
  }  */
 .sect2
 {
-    /* border: 1px solid blue; */
-    /* background: #e91e63; */
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* align-content: center; */
 
     width: 100%;
     height: 950px;
-    /* position: relative;  */
-    /* z-index: 2; */
 }
 
 .content-container
@@ -27,7 +22,6 @@
     justify-content: space-between;
     width: 975px;
     height: auto;
-    /* border: blue 1px solid; */
     margin: 0 auto;
 }
 
@@ -51,27 +45,14 @@ h1
 
 .p_texto
 { 
-    /* background: gray; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    /* width: 2080px; */
     color: black;
-    /* Posiciona el h1 en la mitad superior del contenedor */
-    /* top: 95%;  */
-    /* Posiciona el h1 en el centro del contenedor */
-    /* left: 50%;  */
     font-family: 'Montserrat-Light';
     font-size: 20px;
-    /* border: #e91e63 1px solid; */
-    /* margin-top:-20px;
-    margin-bottom: -20px; */
     margin: 0;
 }
 
 .container_sect2
 {
-    /* background: violet; */
     position: relative;
     display: flex;
     flex-direction: row;
@@ -88,7 +69,6 @@ h1
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    /* border: #321ee9 1px solid; */
 }
 
 .img_container
@@ -96,7 +76,6 @@ h1
    position: relative; 
    width: 225px;
    height: 160px;
-   /* border: slateblue 1px solid; */
 }
 
 img
@@ -104,12 +83,6 @@ img
     width: 100%;
     height: 100%;
 }
-
-/* #img_lugares
-{
-    width: 245px;
-    height: 180px;
-} */
 
 #id_hotel_container
 {
@@ -130,7 +103,6 @@ img
     color: white;
     font-family: 'Montserrat-Bold';
     font-size: 23px;
-    /* border: blue 1px solid; */
 }
 
 #p_hoteles
@@ -139,64 +111,3 @@ img
     bottom: -26%;
     left: -1%;
 }
-
-/* #p_vuelos
-{
-    position: absolute;
-    top:31% ;
-    left: 0%;
-    color: white;
-    font-family: 'Montserrat-Bold';
-    font-size: 30px;
-} */
-
-/* #p_casas
-{
-    position: absolute;
-    top:85% ;
-    left: 0%;
-    color: white;
-    font-family: 'Montserrat-Bold';
-    font-size: 30px;
-} */
-
-/* #p_hoteles
-{
-    position: absolute;
-    top:55% ;
-    left: 24%;
-    color: white;
-    font-family: 'Montserrat-Bold';
-    font-size: 90px;
-} */
-
-/* #p_experiencias
-{
-    position: absolute;
-    top:31% ;
-    left: 77%;
-    color: white;
-    font-family: 'Montserrat-Bold';
-    font-size: 30px;
-} */
-
-/* #p_autos
-{
-    position: absolute;
-    top:85% ;
-    left: 77%;
-    color: white;
-    font-family: 'Montserrat-Bold';
-    font-size: 30px;
-} */
- /* Color negro con opacidad del 50% */
-/* .container_sect2::before 
-{
-    content: "";
-    position: absolute;
-    top: 31;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); 
-  } */

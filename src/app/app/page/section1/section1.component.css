@@ -8,6 +8,11 @@
   src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
 .main_container
 {
     position: relative;
@@ -67,19 +72,8 @@
 
 #right_background_container
 {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
-  /* border: #91e91e 1px solid; */
-}
-
-.right_rectang_container 
-{
-   /* position: absolute; */
-   /* width: 100%; */
-    /* height: 50%; */
-    /* top: 0; */
-    /* border: rgb(229, 255, 0) 1px solid */
 }
 
   .Rect2501
@@ -89,7 +83,6 @@
     left: 1%;
     width: 160px;
     height: 156px;
-    /* border: rgb(255, 38, 0) 1px solid; */
   }
 
   .Rect2502
@@ -99,9 +92,8 @@
     left: 1%; 
     width:  400px;
     height: 400px;
-    /* border: rgb(255, 38, 0) 1px solid; */
   }
-
+/* /////////////////////////////////// */
   */
   .section_buttons {
       display: flex;
@@ -118,25 +110,30 @@
       background: turquoise;
     }
     
-    .example-button-row {
+    .example-button-row 
+    {
       display: table-cell;
       max-width: 600px;
-      background: yellow;
     }
     
-    .example-button-row .mat-mdc-button-base {
+    .example-button-row .mat-mdc-button-base 
+    {
       margin: 8px 8px 8px 0;
       background: #e91e63;
+      font-family: 'Montserrat-Medium';
+      font-size: 12px;
     }
     
-    /* .example-flex-container {
+    /* .example-flex-container 
+    {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       background:  green;
     } */
     
-    .example-button-container {
+    .example-button-container 
+    {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -144,33 +141,36 @@
       background: blue;
     }
   
-    .example-button-container button {
-      border-radius: 50%; /* Hace que los botones sean redondeados */
-      width: 56px; /* Ajusta el ancho de los botones según tus necesidades */
-      height: 56px; /* Ajusta la altura de los botones según tus necesidades */
+    .example-button-container button 
+    {
+      border-radius: 50%; 
+      width: 56px; 
+      height: 56px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 8px; /* Añade un margen entre los botones */
-  }
+      margin: 8px; 
+    }
 
   /* ////////////////// */
   .rectangulo-container
   {
     position: absolute;
-    background: yellow;
     padding: 0px 10px 0px 10px;
-    bottom: 14%; 
+    bottom: 12%; 
     left: 2%;
     width: 360px;
     height: 360px;
-    border: rgb(255, 38, 0) 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
 button
 {
   width: 40px;
   height: 40px;
+  background: transparent;
 }
 
   .button-container
@@ -192,14 +192,22 @@ button
     display: flex;
     flex-direction: row;
       gap: 30px;
-      border: #e91e63 1px solid;
+      font-family: 'Montserrat-Medium';
+      font-size: 14px;
   }
   
+p
+{
+  color: black;
+}
+
   input
   {
       border: 1px solid black;
       border-radius: 20px;
       height: 35px;
+      font-family: 'Montserrat-Medium';
+      font-size: 14px;
   }
   
   .top-form-container
@@ -217,13 +225,32 @@ button
   .buscar_btn
   {
     width: 100%;
+    height: 35px;
+    border-radius: 20px;
   }
 
-  .mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  .mat-mdc-radio-button 
+  {
     margin-left: 5px;
     color: #e91e63;
-    border: #e91e63 1px solid;
   }
-  .custom-text-color {
-    color: red; 
-  }
+  
+  .example-button-row button
+{
+  margin-right: 8px;
+}
+
+.example-disabled {
+  display: inline-block;
+}
+
+.btn
+{
+  width: 100%;
+  color: white;
+}
+
+.icon_btn
+{
+  background: #e91e63;
+}

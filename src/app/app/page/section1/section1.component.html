@@ -6,89 +6,55 @@
   </div> 
  <div class="background_container" id="right_background_container">
   <img class="background" src="assets\img\Enmascarar grupo 14.jpg" alt="">
-     <!-- <div class="right_rectang_container"> -->
        <img src="assets\img\Rectángulo 2501.png" alt="" class="Rect2501">
-     <!-- </div> -->
-     <!-- <div class="right_rectang_container"> -->
        <img src="assets\img\Rectángulo 2502.png" alt="" class="Rect2502">
-     <!-- </div> -->
 
      <div class="rectangulo-container">
       <div class="button-container ">
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>1</mat-icon>
+        <button mat-fab class="icon_btn" aria-label="Example icon button with a delete icon">
+          <mat-icon>home</mat-icon>
         </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>2</mat-icon>
+        <button mat-fab  aria-label="Example icon button with a delete icon">
+          <mat-icon>add</mat-icon>
         </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>3</mat-icon>
+        <button mat-fab aria-label="Example icon button with a delete icon">
+          <mat-icon>alarm</mat-icon>
         </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>4</mat-icon>
+        <button mat-fab aria-label="Example icon button with a delete icon">
+          <mat-icon>calendar_today</mat-icon>
         </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>5</mat-icon>
+        <button mat-fab aria-label="Example icon button with a delete icon">
+          <mat-icon>edit</mat-icon>
         </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>6</mat-icon>
+        <button mat-fab aria-label="Example icon button with a delete icon">
+          <mat-icon>menu</mat-icon>
         </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-          <mat-icon>7</mat-icon>
+        <button mat-fab aria-label="Example icon button with a delete icon">
+          <mat-icon>info</mat-icon>
         </button>
       </div>
       <form class="form-container">
         <div class="radio-button-container">
           <mat-radio-group aria-label="Select an option">
-            <mat-radio-button class="custom-text-color" value="1">Ida y vuelta</mat-radio-button>
-            <mat-radio-button class="custom-text-color" value="2">Solo Ida</mat-radio-button>
-            <mat-radio-button class="custom-text-color" value="3">Multidestino</mat-radio-button>
+            <mat-radio-button class="custom-text-color" value="1"><p>Ida y vuelta</p></mat-radio-button>
+            <mat-radio-button class="custom-text-color" value="2"><p>Solo Ida</p></mat-radio-button>
+            <mat-radio-button class="custom-text-color" value="3"><p>Multidestino</p></mat-radio-button>
           </mat-radio-group>
         </div>
         <div class="top-form-container flex-row">
           <input type="text" class="top-form-input" placeholder="Origen"/>
           <input type="text" class="top-form-input" placeholder="Destino"/>
         </div>
-        <input type="date" />
-        <input type="date" />
-        <input type="date" />
-          <button mat-fab class="buscar_btn" color="primary" aria-label="Example icon button with a delete icon">
-            <mat-icon>7</mat-icon>
+        <input type="text" placeholder="Fecha de salida" onfocus="(this.type='date')" onblur="(this.type='text')">
+        <input type="text" placeholder="Fecha de retorno" onfocus="(this.type='date')" onblur="(this.type='text')">
+        <input type="text" placeholder="Pasajeros" />
+        <div class="example-button-row">
+          <button mat-fab class="btn" extended color="accent">
+            <mat-icon>search</mat-icon>
+            BUSCAR
           </button>
-      </form>>
+        </div>       
+      </form>
     </div>
   </div>
-<!-- </section> -->
-
-    <!-- <mat-divider></mat-divider>
-    <section class="section_buttons">
-      <div class="example-label">FAB</div>
-      <div class="example-button-row">
-        <div class="example-flex-container">
-          <div class="example-button-container">
-            <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
-              <mat-icon>delete</mat-icon>
-            </button>
-          </div>
-          <div class="example-button-container">
-            <button mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
-              <mat-icon>bookmark</mat-icon>
-            </button>
-          </div>
-          <div class="example-button-container">
-            <button mat-fab color="warn" aria-label="Example icon button with a home icon">
-              <mat-icon>home</mat-icon>
-            </button>
-          </div>
-          <div class="example-button-container">
-            <button mat-fab disabled aria-label="Example icon button with a heart icon">
-              <mat-icon>favorite</mat-icon>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>   -->
-    
-    
-
   </section>

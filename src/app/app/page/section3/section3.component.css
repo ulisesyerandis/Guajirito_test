@@ -1,46 +1,38 @@
 /* sectio3 */
 
-*{
+/* *{
     border: 1px solid red; 
-    } 
+    }  */
 
 .sect3
 {
+    position: relative;
     width: 100%;
     height: 850px;
-    /* background: turquoise; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 #background
 {
-    position: relative;
     width: 100%;
 }
 
 .div_text
 {
-    /* background: #e91e63;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-    width: 1060px; */
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    text-align: center; /* Alinear el texto al centro */
-    /* background: yellowgreen; */
-    width: 900px;
+    text-align: center; 
+    width: 1041px;
     height: 100px;
     margin: 0 auto;
-    top: 67%;
-    left: 18%;
+    top: 10%;
+    left: 17%;
 }  
 
 @font-face {
@@ -50,8 +42,6 @@
 
 h1
 {
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
     font-family: 'Montserrat-ExtraBold';
     font-size: 42px;
     margin: 0;
@@ -64,8 +54,6 @@ h1
 
 h3
 {
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
     font-family: 'Montserrat-Light';
     font-size: 20px;
     margin: 0;
@@ -73,13 +61,15 @@ h3
 
 .container
 {
-    width: 900px;
-    height: auto;
     position: absolute;
+    /* width: 900px; */
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    top: 23%;
+    left: 17%;
 }
 
 .div_img
@@ -94,16 +84,6 @@ h3
 
 #img_peces
 {
-        /* Establece el h1 como posición absoluta */
-        /* position: absolute;  */
-        /* Posiciona el h1 en la mitad superior del contenedor */
-        /* top: 25%;  */
-        /* Posiciona el h1 en el centro del contenedor */
-        /* left: 112%;  */
-        /* Centra el h1 exactamente sobre la imagen */
-        /* transform: translate(-50%, -50%);  */
-        /* Asegura que el h1 esté por encima de las imágenes */
-        /* z-index: 1;  */
         width: 175px;
         height: 173px;
         display: flex;
@@ -179,7 +159,7 @@ h4
 
 p
 {
-    width: 550px;
+    width: 700px;
     height: 250px;
     margin: 0;
     padding-top: 5px;

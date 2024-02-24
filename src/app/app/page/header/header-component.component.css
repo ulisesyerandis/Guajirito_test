@@ -1,19 +1,6 @@
 /* header */
 header
 {
-  /* position: absolute;
-  display: inline-flex;
-  flex-direction: row-reverse; */
-  /* justify-content: space-between; */
-  /* align-items: center;
-  width: 200%;
-  height: 100px;
-  background: transparent ; */
-  /* transform: translate(-50%, -50%); */
-  /* z-index: 1;
-  border: #e91e63 1px solid; */
-  /* margin: 0; */
-
   position: absolute;
   display: flex;
   justify-content: space-around;
@@ -22,15 +9,15 @@ header
   height: 100px;
   background: transparent;
   z-index: 1;
-  /* padding-left: 200px; */
-  /* padding-right: 200px; */
-  border: #e91e63 1px solid;
 }
 
 div
 {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 a
@@ -40,28 +27,26 @@ a
   margin-right: 10px;
   text-decoration: none;
   color: white;
-  /* margin: 0; */
   font-family: 'Montserrat-Bold';
   font-size: 14px;
 }
 
-.logo {
-  /* width: 90px; 
-  height: 7%; 
-  position: absolute; */
-  /* top: 5%;  */
-  /* left: 42%;
-  transform: translate(-50%, -50%);
-  z-index: 1; */
-  /* margin: 0; */
-  position: relative;
-  /* top: 50%; 
-  left: 20%;  */
-  /* transform: translate(-50%, -50%);  */
-  /* Centra la imagen en el contenedor */
-  /* z-index: 1;
-  width: 90px;
-  height:5%; */
-  width: 90px;
-  height: auto;
+.logo 
+{
+position: relative;
+width: 90px;
+height: auto;
+}
+
+.boton-redondo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png');
+  /* background-image: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/icons/Flag_of_Spain.svg.webp'); */
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  color: white;
 }
