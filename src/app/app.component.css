@@ -9,13 +9,12 @@
     justify-content: center;
 }
   /* /////////////////////////////////////////////////////////// */
-  .recomendatin_container
+  .recomendation_container
   {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
   }
 
 .text_container 
@@ -27,3 +26,26 @@
   align-self: center;
 }
 
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf');
+}
+
+h1
+{
+  font-family: 'Montserrat-ExtraBold';
+  font-size: 42px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('/assets/fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+h3
+{
+  font-family: 'Montserrat-Light';
+  font-size: 20px;
+  margin: 0;
+}

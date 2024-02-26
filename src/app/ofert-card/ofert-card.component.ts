@@ -13,13 +13,19 @@ import { Component, Input } from '@angular/core';
 })
 export class OfertCardComponent 
 {
+[x: string]: any;
   @Input()father: string = '';
   @Input()img: string = '';
   @Input()name: string = 'sin nombre';
-  @Input()price: string = '';
+  @Input()price: number = 0;
   @Input()city: string = '';
-  @Input()stars: string = '';
+  @Input()stars: number = 0;
 
+  maxValue: number = 4;
+
+  generateRange(value: number): number[] {
+    return Array.from({ length: value }, (_, index) => index);
+  }
 
 
 }

@@ -41,9 +41,7 @@ height: auto;
 .boton-redondo {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png');
-  /* background-image: url('D:/!!!!!!!!----TRABAJOS PROGRAMANDO/Guajiritos/Guajiritos/guajiritos/src/assets/icons/Flag_of_Spain.svg.webp'); */
+  border-radius: 50%;background-image: url('/assets/icons/Flag_of_Spain.svg.webp');
   background-size: cover;
   background-position: center;
   border: none;

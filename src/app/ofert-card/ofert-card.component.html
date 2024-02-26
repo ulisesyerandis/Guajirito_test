@@ -1,11 +1,11 @@
 <div class="card_container">
     <div class="img_container">
-        <img [src]="img" alt="ofert image">
+        <img class="img_card" [src]="img" alt="ofert image">
     </div>
     <div class="namePrice_container">
         <h3>{{ name }} </h3>
         <div class="price_container">
-            <h3>${{ price }} CUP</h3>
+            <h4>${{ price }} CUP</h4>
             @if (father === 'car') 
             {
                 <h5>POR DÍA</h5>
@@ -15,15 +15,21 @@
             } 
         </div>
     </div>
+    <hr/>
     <div class="cityStars_container">
         <div class="city_container">
             @defer  (when father !== 'car') 
         {
-            <h3>{{ city }}</h3>
+            <img class="star_img" src="assets/icons/map-pin.svg" alt="">
+            <h6>{{ city }}</h6>
         }
         </div>
         <div class="star_container">
-            <h3>{{ stars }}</h3>
+            
+
+            <ng-container *ngFor="let i of generateRange(stars)">
+               <img class="star_img" src="assets/icons/star.svg" alt="">
+            </ng-container>
         </div>
     </div>
 </div>

@@ -17,12 +17,12 @@ export class RecommendedRentalHouseComponent
 {
   father: string = 'house';
   houseList: house[] = [
-    { img: 'assets/rentHouse/r.h 1.jfif', name: 'House 1', pricePerNight: 100, stars: 5, city: 'City 1' },
-    { img: 'assets/rentHouse/r.h 2.jfif', name: 'House 2', pricePerNight: 120, stars: 4, city: 'Ciudad 2' },
-    { img: 'assets/rentHouse/r.h 3.jfif', name: 'House 3', pricePerNight: 150, stars: 3, city: 'Ciudad 3' },
-    { img: 'assets/rentHouse/r.h 4.jfif', name: 'House 4', pricePerNight: 100, stars: 5, city: 'Ciudad 1' },
-    { img: 'assets/rentHouse/r.h 5.jfif', name: 'House 5', pricePerNight: 120, stars: 4, city: 'Ciudad 2' },
-    { img: 'assets/rentHouse/r.h 6.jfif', name: 'House 6', pricePerNight: 150, stars: 3, city: 'Ciudad 3' },
+    { img: 'assets/rentHouse/r.h 1.jfif', name: 'House 1', pricePerNight: 100, stars: 5, city: 'La Habana' },
+    { img: 'assets/rentHouse/r.h 2.jfif', name: 'House 2', pricePerNight: 120, stars: 4, city: 'Cienfuego' },
+    { img: 'assets/rentHouse/r.h 3.jfif', name: 'House 3', pricePerNight: 150, stars: 3, city: 'Guantanamo' },
+    { img: 'assets/rentHouse/r.h 4.jfif', name: 'House 4', pricePerNight: 100, stars: 5, city: 'Holguin' },
+    { img: 'assets/rentHouse/r.h 5.jfif', name: 'House 5', pricePerNight: 120, stars: 4, city: 'Pinar del Rio' },
+    { img: 'assets/rentHouse/r.h 6.jfif', name: 'House 6', pricePerNight: 150, stars: 3, city: 'Artemisa' },
     // Otros hoteles...
   ];
 

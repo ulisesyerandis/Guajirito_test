@@ -17,12 +17,12 @@ export class RecommendedCarComponent
 {
   father: string = 'car';
   carList: car[] = [
-    { img: 'assets/cars/car1.jfif', type: 'car 1', pricePerDay: 100, stars: 5 },
-    { img: 'assets/cars/car2.jfif', type: 'car 2', pricePerDay: 120, stars: 4 },
-    { img: 'assets/cars/car3.jfif', type: 'car 3', pricePerDay: 150, stars: 3 },
-    { img: 'assets/cars/car4.jfif', type: 'car 4', pricePerDay: 100, stars: 5 },
-    { img: 'assets/cars/car5.jfif', type: 'car 5', pricePerDay: 120, stars: 4 },
-    { img: 'assets/cars/car6.jfif', type: 'car 6', pricePerDay: 150, stars: 3 },
+    { img: 'assets/cars/car1.jfif', type: 'Chevrolet', pricePerDay: 100, stars: 2 },
+    { img: 'assets/cars/car2.jfif', type: 'Ford', pricePerDay: 120, stars: 4 },
+    { img: 'assets/cars/car3.jfif', type: 'Cadillac', pricePerDay: 150, stars: 3 },
+    { img: 'assets/cars/car4.jfif', type: 'Dodge', pricePerDay: 100, stars: 5 },
+    { img: 'assets/cars/car5.jfif', type: 'Ladas ', pricePerDay: 120, stars: 1 },
+    { img: 'assets/cars/car6.jfif', type: 'Moskvitch', pricePerDay: 150, stars: 3 },
     // Otros hoteles...
   ];
 
