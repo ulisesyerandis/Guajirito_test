@@ -4,6 +4,9 @@
              <h2>Casas de Renta que Enamoran</h2>
         </div>
         <div class="houses" #carrusel>
+            <button (click)="moverCarrusel(-1)">
+                <img src="/assets/icons/circle-arrow-left.svg" alt="left">
+            </button>
             <div class="house" *ngFor="let house of visibleHouses">
                 <app-ofert-card
                 [father]="father"
@@ -14,11 +17,6 @@
                 [stars]="house.stars"
                 ></app-ofert-card>
             </div>
-        </div>
-        <div class="buton_container">
-            <button (click)="moverCarrusel(-1)">
-            <img src="/assets/icons/circle-arrow-left.svg" alt="left">
-        </button>
             <button (click)="moverCarrusel(1)">
                 <img src="/assets/icons/circle-arrow-right.svg" alt="right">
             </button>

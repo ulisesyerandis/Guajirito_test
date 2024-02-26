@@ -4,6 +4,9 @@
             <h2>Carros de Ensueño</h2>
         </div>
         <div class="cars" #carrusel>  
+            <button (click)="moverCarrusel(-1)">
+                <img src="/assets/icons/circle-arrow-left.svg" alt="left">
+            </button>
             <div class="car" *ngFor="let car of visiblesCar">
                 <app-ofert-card
                 [father]="father"
@@ -13,15 +16,10 @@
                 [stars]="car.stars"
                 ></app-ofert-card>
             </div>
-        </div>
-        <div class="buton_container">
-            <button (click)="moverCarrusel(-1)">
-            <img src="/assets/icons/circle-arrow-left.svg" alt="left">
-        </button>
             <button (click)="moverCarrusel(1)">
                 <img src="/assets/icons/circle-arrow-right.svg" alt="right">
             </button>
-        </div>  
+        </div> 
     </div>
 
 
