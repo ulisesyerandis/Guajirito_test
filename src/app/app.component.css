@@ -1,26 +1,29 @@
 
-
 .container
 {
     position: relative;
-
-    display: flex; /* Añade display:flex para habilitar las propiedades flex */
-    /* background-color: rgb(69, 72, 75); */
+    display: flex;
     height: auto;
     flex-direction: column; 
     flex-wrap: nowrap;
     justify-content: center;
 }
   /* /////////////////////////////////////////////////////////// */
-  
+  .recomendatin_container
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
 
-  /* Primary color- #e91e63
-Primary text- #000000 
-Secondary text- #757575 - GREY 600
-Divider color- #BDBDBD - GREY 400 */
-
-/* //////////////////////  section 2   ///////// */
-
-  /* ////////////////////////  section 3 ////////////////////////////// */
-
+.text_container 
+{
+  width: 70%;
+  left: 25%;
+  display: flex; 
+  flex-direction: column; 
+  align-self: center;
+}
 

@@ -1,17 +1,17 @@
 
     <div class="carrusel">
         <div class="title_container">
-             <h2>Los Hoteles Favoritos</h2>
+             <h2>Casas de Renta que Enamoran</h2>
         </div>
-        <div class="hoteles" #carrusel>
-            <div class="hotel" *ngFor="let hotel of VisiblesHotels">
+        <div class="houses" #carrusel>
+            <div class="house" *ngFor="let house of visibleHouses">
                 <app-ofert-card
                 [father]="father"
-                [img]="hotel.img"
-                [name]="hotel.name"
-                [price]="hotel.pricePerNight"
-                [city]="hotel.city"
-                [stars]="hotel.stars"
+                [img]="house.img"
+                [name]="house.name"
+                [price]="house.pricePerNight"
+                [city]="house.city"
+                [stars]="house.stars"
                 ></app-ofert-card>
             </div>
         </div>

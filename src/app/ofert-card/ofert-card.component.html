@@ -1,0 +1,29 @@
+<div class="card_container">
+    <div class="img_container">
+        <img [src]="img" alt="ofert image">
+    </div>
+    <div class="namePrice_container">
+        <h3>{{ name }} </h3>
+        <div class="price_container">
+            <h3>${{ price }} CUP</h3>
+            @if (father === 'car') 
+            {
+                <h5>POR DÍA</h5>
+            }
+            @else{
+                <h5>POR NOCHE</h5>
+            } 
+        </div>
+    </div>
+    <div class="cityStars_container">
+        <div class="city_container">
+            @defer  (when father !== 'car') 
+        {
+            <h3>{{ city }}</h3>
+        }
+        </div>
+        <div class="star_container">
+            <h3>{{ stars }}</h3>
+        </div>
+    </div>
+</div>

@@ -1,30 +1,32 @@
 import { CommonModule } from '@angular/common';
 import { Component, ViewChild, ElementRef } from '@angular/core';
 // import { hotelModel } from '../../Model/hotelModel.ts';
+import { hotel } from '../../../Model/Hotel';
+import { OfertCardComponent } from '../../../ofert-card/ofert-card.component';
 @Component({
   selector: 'app-recomendation',
   standalone: true,
   imports: 
   [
-    CommonModule
+    CommonModule, OfertCardComponent
   ],
   templateUrl: './recomendation.component.html',
   styleUrl: './recomendation.component.css'
 })
 export class RecomendationComponent 
 {
-  listaHoteles: any[] = [
-    { img: 'assets/hoteles/hotel 1.jfif', nombre: 'Hotel 1', precioPorNoche: 100, cantidadEstrellas: 5, ciudad: 'Ciudad 1' },
-    { img: 'assets/hoteles/hotel 2.jfif', nombre: 'Hotel 2', precioPorNoche: 120, cantidadEstrellas: 4, ciudad: 'Ciudad 2' },
-    { img: 'assets/hoteles/hotel 3.jfif', nombre: 'Hotel 3', precioPorNoche: 150, cantidadEstrellas: 3, ciudad: 'Ciudad 3' },
-    { img: 'assets/hoteles/hotel 4.jfif', nombre: 'Hotel 4', precioPorNoche: 100, cantidadEstrellas: 5, ciudad: 'Ciudad 1' },
-    { img: 'assets/hoteles/hotel 5.jfif', nombre: 'Hotel 5', precioPorNoche: 120, cantidadEstrellas: 4, ciudad: 'Ciudad 2' },
-    { img: 'assets/hoteles/hotel 6.jfif', nombre: 'Hotel 6', precioPorNoche: 150, cantidadEstrellas: 3, ciudad: 'Ciudad 3' },
-    // Otros hoteles...
+  father: string = 'hotel';
+  hoteList: hotel[] = [
+    { img: 'assets/hoteles/hotel 1.jfif', name: 'Hotel 1', pricePerNight: 100, stars: 5, city: 'Ciudad 1' },
+    { img: 'assets/hoteles/hotel 2.jfif', name: 'Hotel 2', pricePerNight: 120, stars: 4, city: 'Ciudad 2' },
+    { img: 'assets/hoteles/hotel 3.jfif', name: 'Hotel 3', pricePerNight: 150, stars: 3, city: 'Ciudad 3' },
+    { img: 'assets/hoteles/hotel 4.jfif', name: 'Hotel 4', pricePerNight: 100, stars: 5, city: 'Ciudad 1' },
+    { img: 'assets/hoteles/hotel 5.jfif', name: 'Hotel 5', pricePerNight: 120, stars: 4, city: 'Ciudad 2' },
+    { img: 'assets/hoteles/hotel 6.jfif', name: 'Hotel 6', pricePerNight: 150, stars: 3, city: 'Ciudad 3' },
   ];
 
   currentIndex: number = 0;
-  hotelesVisibles: any[] = [];
+  VisiblesHotels: any[] = [];
 
   @ViewChild('carrusel')
   carrusel!: ElementRef;
@@ -33,13 +35,13 @@ export class RecomendationComponent
     this.actualizarHotelesVisibles();
   }
 
-  moverCarrusel(direccion: number) {
-    const numHoteles = this.listaHoteles.length;
-    const numHotelesVisibles = 3; // Número de hoteles visibles a la vez
+  moverCarrusel(address: number) {
+    const numHoteles = this.hoteList.length;
+    const numVisiblesHotels = 3;
   
-    if (direccion === -1) {
+    if (address === -1) {
       this.currentIndex = (this.currentIndex - 3 + numHoteles) % numHoteles;
-    } else if (direccion === 1) {
+    } else if (address === 1) {
       this.currentIndex = (this.currentIndex + 3) % numHoteles;
     }
   
@@ -48,7 +50,7 @@ export class RecomendationComponent
   
 
   actualizarHotelesVisibles() {
-    this.hotelesVisibles = this.listaHoteles.slice(this.currentIndex, this.currentIndex + 3);
+    this.VisiblesHotels = this.hoteList.slice(this.currentIndex, this.currentIndex + 3);
   }
   
 }

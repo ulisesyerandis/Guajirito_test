@@ -20,13 +20,15 @@
     align-items: center;
 }
 
-  .hoteles {
+  .cars
+   {
     display: flex;
     transition: transform 0.5s ease;
     width: 70%;
   }
   
-  .hotel {
+  .car
+   {
     flex: 0 0 33.33%;
     width: 80%;
   }
