@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="carrusel">
+        <div class="hoteles" #carrusel>
+            <div class="hotel" *ngFor="let hotel of hotelesVisibles">
+                <img [src]="hotel.img" alt="{{ hotel.nombre }}">
+                <h2>{{ hotel.nombre }}</h2>
+                <p>Precio por noche: {{ hotel.precioPorNoche }}</p>
+                <p>Cantidad de estrellas: {{ hotel.cantidadEstrellas }}</p>
+                <p>Ciudad: {{ hotel.ciudad }}</p>
+            </div>
+        </div>
+        <div class="button_container">
+            <button (click)="moverCarrusel(-1)">Anterior</button>
+            <button (click)="moverCarrusel(1)">Siguiente</button>
+        </div>
+    </div>
+</div>
+
+  
