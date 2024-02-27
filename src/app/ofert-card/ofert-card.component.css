@@ -1,3 +1,14 @@
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
 .card_container
 {
     display: flex;
@@ -11,6 +22,7 @@
     height: 430px;
     padding-bottom: 3%;
     padding-top: 3%;
+    animation: slideIn 0.5s; 
 }
 
 .img_container 

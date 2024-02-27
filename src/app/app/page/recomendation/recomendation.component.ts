@@ -36,13 +36,26 @@ export class RecomendationComponent
     this.updateVisiblesHotels();
   }
 
-  moverCarrusel(address: number) {
+  // moverCarrusel(address: number) {
+  //   const numHoteles = this.hoteList.length;
+  //   const numVisiblesHotels = 3;
+  
+  //   if (address === -1) {
+  //     this.currentIndex = (this.currentIndex - 3 + numHoteles) % numHoteles;
+  //   } else if (address === 1) {
+  //     this.currentIndex = (this.currentIndex + 3) % numHoteles;
+  //   }
+  
+  //   this.updateVisiblesHotels();
+  // }
+  
+  moverCarrusel(direccion: number) {
     const numHoteles = this.hoteList.length;
     const numVisiblesHotels = 3;
   
-    if (address === -1) {
+    if (direccion === -1) {
       this.currentIndex = (this.currentIndex - 3 + numHoteles) % numHoteles;
-    } else if (address === 1) {
+    } else if (direccion === 1) {
       this.currentIndex = (this.currentIndex + 3) % numHoteles;
     }
   
