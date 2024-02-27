@@ -42,12 +42,20 @@
           </mat-radio-group>
         </div>
         <div class="top-form-container flex-row">
-          <input type="text" class="top-form-input" placeholder="Origen"/>
-          <input type="text" class="top-form-input" placeholder="Destino"/>
+          <input type="text" class="top-form-input" placeholder=" Origen"/>
+          <input type="text" class="top-form-input" placeholder=" Destino"/>
+          <img class="icon_gps1" src="assets/icons/map-pin.svg" alt="">
+          <img class="icon_gps2" src="assets/icons/map-pin.svg" alt="">
         </div>
-        <input type="text" placeholder="Fecha de salida" onfocus="(this.type='date')" onblur="(this.type='text')">
-        <input type="text" placeholder="Fecha de retorno" onfocus="(this.type='date')" onblur="(this.type='text')">
-        <input type="text" placeholder="Pasajeros" />
+        <div class="date_input_container">
+          <input type="text" class="date_input" placeholder=" Fecha de salida" onfocus="(this.type='date')" onblur="(this.type='text')">
+          <img class="icon_date1" src="assets/icons/calendar-event.svg" alt="">
+          <input type="text" class="date_input" placeholder=" Fecha de retorno" onfocus="(this.type='date')" onblur="(this.type='text')">
+          <img class="icon_date2" src="assets/icons/calendar-event.svg" alt="">
+          <input type="text" class="date_input" placeholder=" Pasajeros" />
+          <img class="icon_passenger" src="assets/icons/users-plus.svg" alt="">
+        </div>
+        
         <div class="example-button-row">
           <button mat-fab class="btn" extended color="accent">
             <mat-icon>search</mat-icon>

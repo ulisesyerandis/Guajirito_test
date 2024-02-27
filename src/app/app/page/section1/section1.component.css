@@ -18,6 +18,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
 }
 
@@ -202,6 +203,7 @@ p
   
   .top-form-container
   {
+    position:relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -209,9 +211,55 @@ p
   
   .top-form-input
   {
-      width: 45%;
+      width: 38%;
+      padding-left: 30px;
   }
   
+  .date_input_container
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .date_input
+  {
+     padding-left: 30px;
+  }
+
+  .icon_passenger
+  {
+    position: absolute;
+    left: 20px; 
+    top: 76%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: auto; 
+    z-index: 1; 
+  }
+
+  .icon_date1
+  {
+    position: absolute;
+    left: 20px; 
+    top: 49%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: auto; 
+    z-index: 1; 
+  }
+
+  .icon_date2
+  {
+    position: absolute;
+    left: 20px; 
+    top: 62%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: auto; 
+    z-index: 1; 
+  }
+
   .buscar_btn
   {
     width: 100%;
@@ -243,4 +291,26 @@ p
 .icon_btn
 {
   background: #e91e63;
+}
+
+.icon_gps1
+{
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; 
+  height: auto; 
+  z-index: 1; 
+}
+
+.icon_gps2
+{
+  position: absolute;
+  left: 200px; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; 
+  height: auto; 
+  z-index: 1; 
 }
